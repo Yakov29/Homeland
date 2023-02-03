@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 120px;
+    padding-bottom: 163px;
+}
+
+.footer .container{
+    display: flex;
+}
+
+.footer__box{
+    width: 360px;
+}
+
+.footer__title{
+    @extend %text-title;
+}
+
+.footer__description{
+    @extend %description-text;
+    color: #171717;
+    margin-top: 24px;
+}
+
+.footer__list{
+    display: flex;
+    gap: 80px;
+    margin-left: 254px;
+}
+
+.footer__item{
+    width: 165px;
+}
+
+.footer__item:first-child{
+    width: 90px;
+}
+
+.footer__item:last-child{
+    width: 90px;
+}
+
+.footer__link{
+    margin-top: 12px;
+}

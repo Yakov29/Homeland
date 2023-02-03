@@ -1,0 +1,43 @@
+.clients__title{
+    @extend %text-title;
+}
+
+.clients__list{
+    display: flex;
+    margin-top: 167px;
+}
+
+.clients__name{
+    font-weight: 500;
+font-size: 38px;
+line-height: 1.05;
+color: #171717;
+margin-bottom: 32px;
+}
+
+.clients__description{
+    @extend %description-text;
+    color: #171717;
+    margin-bottom: 38px;
+}
+
+.clients__box{
+    display: flex;
+    align-items: center;
+}
+
+.clients__boxlist{
+    margin-left: 18px;
+}
+
+.people__name{
+    font-weight: 500;
+font-size: 24px;
+line-height: 106%;
+color: #171717;
+}
+
+.people__description{
+    @extend %description-text;
+    color: #171717;
+}

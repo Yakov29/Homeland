@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./js/toast.js">
+    <link rel="stylesheet" href="./js/modal.js">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <ul class="header__first">
+          <li class="first__item">
+            <a class="header__link" href="#">About</a>
+          </li>
+          <li class="first__item">
+            <a class="header__link" href="#">Project</a>
+          </li>
+        </ul>
+        <div class="header__logo">
+          <svg class="logo__svg" width="43.71px" height="37.85px">
+            <use href="./images/symbol-defs.svg#icon-logo"></use>
+          </svg>
+          <span class="logo__span">Yakov29</span>
+        </div>
+        <ul class="header__second">
+          <li class="second__item">
+            <a class="header__link" href="#">Resources</a>
+          </li>
+          <li class="second__item">
+            <a class="header__link" href="#">Features</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__box">
+            <h1>Discover Most Suitable Property</h1>
+            <p class="hero__description">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the.
+            </p>
+            <button type="button" class="btn btn-primary hero__button" id="liveToastBtn">Read More</button>
+          </div>
+          <!-- <img class="hero__img" width="746px" height="1055px" src="./images/hero.jpg" alt="" /> -->
+        </div>
+      </section>
+      <section class="trust">
+        <div class="container">
+          <img width="487px" height="574px" src="./images/girl.png" alt="" />
+          <div class="trust__box">
+            <h2 class="trust__title">
+              An Experienced Real Estate Pro You Can Trust
+            </h2>
+            <p class="trust__description">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <button type="button" class="btn btn-primary trust__button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="video__box">
+          <div class="container">
+          </div>    
+        </div>
+      </section>
+      <section class="listings">
+        <div class="container">
+          <h2 class="listings__title">My Featured Listings</h2>
+          <ul class="listings__list">
+            <li class="listings__item">
+              <img
+                width="360px"
+                height="360px"
+                src="./images/listings1.jpg"
+                alt=""
+              />
+              <h5 class="listings__name">4433 Colfax Circle</h5>
+              <p class="listings__firstdescription">
+                2,750 S/F4 Bedrooms2.5 Baths
+              </p>
+              <p class="listings__seconddescription">
+                6800 Sherburne Drive Dallas, TX 75243
+              </p>
+              <span class="listings__cash">$535,000</span>
+            </li>
+            <li class="listings__item">
+              <img
+                width="360px"
+                height="360px"
+                src="./images/listings2.jpg"
+                alt=""
+              />
+              <h5 class="listings__name">6231 Topsfield Lane</h5>
+              <p class="listings__firstdescription">
+                2,750 S/F4 Bedrooms2.5 Baths
+              </p>
+              <p class="listings__seconddescription">
+                6800 Sherburne Drive Dallas, TX 75243
+              </p>
+              <span class="listings__cash">$819,000</span>
+            </li>
+            <li class="listings__item">
+              <img
+                width="360px"
+                height="360px"
+                src="./images/listings3.jpg"
+                alt=""
+              />
+              <h5 class="listings__name">6830 Hilltop Lane</h5>
+              <p class="listings__firstdescription">
+                2,750 S/F4 Bedrooms2.5 Baths
+              </p>
+              <p class="listings__seconddescription">
+                6800 Sherburne Drive Dallas, TX 75243
+              </p>
+              <span class="listings__cash">$689,000</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <h2 class="clients__title">What Our Client Say</h2>
+          <ul class="clients__list">
+            <li class="clients__item">
+              <h3 class="clients__name">
+                The Service is Worth the Price and I Really Enjoy It
+              </h3>
+              <p class="clients__description">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="clients__box">
+                <img src="./images/clients1.jpg" alt="" />
+                <ul class="clients__boxlist">
+                  <li class="clients__boxitem">
+                    <span class="people__name">Kemal Thareq</span>
+                  </li>
+                  <li class="clients__boxitem">
+                    <p class="people__description">Businessman</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="clients__item">
+              <h3 class="clients__name">
+                This is The Best Service and Ai Really Recommend it to You
+              </h3>
+              <p class="clients__description">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="clients__box">
+                <img src="./images/clients2.jpg" alt="" />
+                <ul class="clients__boxlist">
+                  <li class="clients__boxitem">
+                    <span class="people__name">Warren Steve</span>
+                  </li>
+                  <li class="clients__boxitem">
+                    <p class="people__description">Businessman</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- <section class="modal__section">
+        <div class="container">
+          <div class="modal__firstbox">
+            <h2 class="modal__title">
+              Our Partners in Creating a Super Building Facade
+            </h2>
+            <p class="modal__description">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+          </div>
+        </div>
+        <div class="modal__div">
+          <ul class="modal__list">
+            <li class="modal__item">
+              <h3 class="modal__">Name:</h3>
+              <input
+                class="modal__input"
+                type="text"
+                placeholder="Sulthon"
+                required
+              />
+            </li>
+            <li class="modal__item">
+              <h3 class="modal__">Email:</h3>
+              <input
+                class="modal__input"
+                type="email"
+                placeholder="Sulthon"
+                required
+              />
+            </li>
+            <li class="modal__item">
+              <h3 class="modal__">Message:</h3>
+              <input
+                class="modal__input"
+                type="text"
+                placeholder="Sulthon"
+                required
+              />
+            </li>
+          </ul>
+          <button type="button">Sent Mail</button>
+        </div>
+      </section> -->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <h3 class="footer__title">Your Real Estate Solution</h3>
+          <p class="footer__description">Yakov29 prresent</p>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <h5 class="footer__link">Service</h5>
+            <p class="footer__link">Project</p>
+            <p class="footer__link">Features</p>
+            <p class="footer__link">Resource</p>
+          </li>
+          <li class="footer__item">
+            <h5 class="footer__link">Contact</h5>
+            <p class="footer__link">6800 Sherburne Drive Dallas, TX 75243</p>
+            <p class="footer__link">(123) 456789</p>
+            <p class="footer__link">info@homeland.co</p>
+          </li>
+          <li class="footer__item">
+            <h5 class="footer__link">Social</h5>
+            <p class="footer__link">Instagram</p>
+            <p class="footer__link">Linkedin</p>
+            <p class="footer__link">Youtube</p>
+            <p class="footer__link">Twitter</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img width="20px" height="20px" src="./images/2478225.png" class="rounded me-2" alt="...">
+      <!-- <strong class="me-auto">Yakov29</strong> -->
+      <small>Now</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Thanks for watching🥰
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/toast.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

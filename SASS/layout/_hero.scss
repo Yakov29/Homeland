@@ -1,0 +1,29 @@
+.hero{
+    background: #3D5DDB;
+    padding-top: 122px;
+    padding-bottom: 190px;
+}
+
+.hero .container{
+    display: flex;
+    
+}
+
+.hero__box{
+    display: block;
+    width: 586px;
+}
+
+h1{
+    @extend %big-title;
+}
+
+.hero__description{
+    @extend %description-text;
+    margin-top: 42px;
+}
+
+.hero__button{
+    @extend %button;
+    margin-top: 42px;
+}

@@ -1,0 +1,7 @@
+%button {
+    width: 162px;
+height: 54px;
+background: #171717;
+border: none;
+@extend %description-text;
+}

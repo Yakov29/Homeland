@@ -1,0 +1,49 @@
+.header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: #3D5DDB;
+    padding-top: 34px;
+    padding-bottom: 36px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+.header__first{
+    display: flex;
+    gap: 24px;
+}
+
+.header__link{
+    font-family: 'Satoshi';
+    font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.header__logo{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+
+.logo__span{
+    margin-right: 12px;
+    @extend %logo-text;
+}
+
+.logo__svg{
+    fill: #FFFFFF;
+    margin: 0;
+}
+
+.header__second{
+    display: flex;
+    gap: 24px;
+}

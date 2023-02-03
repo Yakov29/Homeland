@@ -1,0 +1,27 @@
+.modal-section{
+    margin-top: 120px;
+    padding-bottom: 123px;
+    background: #F7F7F7;
+}
+
+.modal-section .container{
+    display: flex;
+}
+
+.modal__div{
+    position: absolute;
+    right: 0;
+}
+
+.modal__title{
+    @extend %text-title;
+}
+
+.modal__description{
+    @extend %description-text;
+    color: #171717;
+}
+
+.modal__div{
+    background: #3D5DDB;
+}

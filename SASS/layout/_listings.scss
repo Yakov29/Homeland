@@ -1,0 +1,29 @@
+.listings{
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+
+.listings__title{
+    @extend %text-title;
+    width: 557px;
+    margin-bottom: 56px;
+}
+
+.listings__list{
+    display: flex;
+    gap: 30px;
+}
+
+.listings__name{
+    @extend %card-title;
+    margin-top: 32px;
+}
+
+.listings__firstdescription{
+    @extend %description-text;
+}
+
+.listings__cash{
+    @extend %cash-text;
+    margin-top: 15px;
+}

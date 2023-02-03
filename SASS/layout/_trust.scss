@@ -1,0 +1,32 @@
+.trust{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.trust .container{
+    display: flex;
+    align-items: center;
+}
+
+.trust__box{
+    width: 557px;
+}
+
+.trust__title{
+    @extend %text-title;
+}
+
+.trust__description{
+    @extend %description-text;
+    color: #171717;
+    margin-top: 35px;
+}
+
+.trust__button{
+    width: 162px;
+height: 54px;
+background: #171717;
+border: none;
+@extend %description-text;
+margin-top: 38px;
+}
